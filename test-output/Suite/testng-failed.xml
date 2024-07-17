@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="edgeTest(failed)">
+    <parameter name="password" value="pa$$w0rd"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="Browser" value="edge"/>
+    <parameter name="username" value="admin"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <exclude name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.Test1">
+        <methods>
+          <include name="testCase3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.Test1 -->
+    </classes>
+  </test> <!-- edgeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="chromeTest(failed)">
+    <parameter name="password" value="pa$$w0rd"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="Browser" value="chrome"/>
+    <parameter name="username" value="admin"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <exclude name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.Test1">
+        <methods>
+          <include name="testCase3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.Test1 -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

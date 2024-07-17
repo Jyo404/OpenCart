@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-16T00:06:10 IST" name="Suite" finished-at="2024-07-16T00:06:25 IST" duration-ms="15597">
+    <groups>
+      <group name="Regression">
+        <method signature="Test1.testCase3(java.lang.String,java.lang.String)[pri:2, instance:testCases.Test1@2e8c1c9b]" name="testCase3" class="testCases.Test1"/>
+        <method signature="Test1.testCase3(java.lang.String,java.lang.String)[pri:2, instance:testCases.Test1@5f049ea1]" name="testCase3" class="testCases.Test1"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-07-16T00:06:10 IST" name="chromeTest" finished-at="2024-07-16T00:06:24 IST" duration-ms="14356">
+      <class name="testCases.Test1">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Test1@5f049ea1]" started-at="2024-07-16T00:06:10 IST" name="setup" finished-at="2024-07-16T00:06:21 IST" duration-ms="11086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCase3(java.lang.String,java.lang.String)[pri:2, instance:testCases.Test1@5f049ea1]" started-at="2024-07-16T00:06:21 IST" name="testCase3" data-provider="creds" finished-at="2024-07-16T00:06:23 IST" duration-ms="2398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pa$$w0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Test1@5f049ea1]" started-at="2024-07-16T00:06:23 IST" name="teardown" finished-at="2024-07-16T00:06:24 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.Test1 -->
+    </test> <!-- chromeTest -->
+    <test started-at="2024-07-16T00:06:10 IST" name="edgeTest" finished-at="2024-07-16T00:06:25 IST" duration-ms="15597">
+      <class name="testCases.Test1">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Test1@2e8c1c9b]" started-at="2024-07-16T00:06:10 IST" name="setup" finished-at="2024-07-16T00:06:22 IST" duration-ms="12366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCase3(java.lang.String,java.lang.String)[pri:2, instance:testCases.Test1@2e8c1c9b]" started-at="2024-07-16T00:06:22 IST" name="testCase3" data-provider="creds" finished-at="2024-07-16T00:06:24 IST" duration-ms="1646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pa$$w0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Test1@2e8c1c9b]" started-at="2024-07-16T00:06:24 IST" name="teardown" finished-at="2024-07-16T00:06:25 IST" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.Test1 -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
